@@ -124,7 +124,7 @@
 	<key>NSFontPanelAttributes</key>
 	<string>1, 0</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/projects/app_settings/iterm2</string>
+	<string>~/projects/app_settings/terminal</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -175,7 +175,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>171 94 928 394 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 453 717 424 0 0 1440 877 </string>
+	<string>485 255 955 622 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -907,7 +907,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>D8556CD7-C946-4823-880A-C92CB160135E</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>44</integer>
+	<integer>48</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1689,7 +1689,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/admin/projects/app_settings/iterm2</string>
+	<string>/Users/admin/projects/app_settings/terminal</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
