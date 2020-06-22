@@ -6,6 +6,13 @@
 
 Set the custom location for iterm2 settings to the file in your project folder and set to auto-save
 
+## Custom plugins to download into Oh-My-ZSH
+
+### Zsh-Nvm
+- https://github.com/lukechilds/zsh-nvm
+### Zsh-Syntax-Hightlighting
+- https://github.com/zsh-users/zsh-syntax-highlighting
+
 ## ZSH file set-up
 
 - add the below code to your .zshrc file at the root user directory (~/)
