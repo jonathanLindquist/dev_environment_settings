@@ -4,15 +4,15 @@
 #Add vlt to command line
 #export PATH="$HOME/tools/vault-cli-3.1.38/bin:$PATH"
 
-alias kube=kubectl
+alias kube="kubectl"
 alias nano="nano -u"
 alias cat="pygmentize -g"
 
 # PATH exports
 export PATH="/usr/local/share/dotnet:$PATH" #dotnet
-export PATH="/Users/admin/bin:$PATH" #local executables
+export PATH="$HOME/bin:$PATH" #local executables
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/admin/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 export GOPATH="/usr/local/Cellar/go/1.10.3/libexec/bin"
 
@@ -31,8 +31,8 @@ export EDITOR=/usr/bin/nano
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
-DEFAULT_USER="admin"
+ZSH_THEME="powerlevel10k/powerlevel10k"
+DEFAULT_USER="$USER"
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
 bindkey "^[begin" beginning-of-line
@@ -108,11 +108,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='subl -w'
-else
-  export EDITOR='subl -w'
-fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='subl -w'
+# else
+#   export EDITOR='subl -w'
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
