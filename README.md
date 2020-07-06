@@ -10,11 +10,11 @@ Set the custom location for iterm2 settings to the file in your project folder a
 
 ### Zsh-Nvm
 
-- https://github.com/lukechilds/zsh-nvm
+- <https://github.com/lukechilds/zsh-nvm>
   
 ### Zsh-Syntax-Hightlighting
 
-- https://github.com/zsh-users/zsh-syntax-highlighting
+- <https://github.com/zsh-users/zsh-syntax-highlighting>
 
 ## ZSH file set-up
 
