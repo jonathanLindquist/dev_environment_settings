@@ -1,10 +1,8 @@
-# iterm2_settings
+# dev_environment_settings
 
-## location for initial Oh-My-Zsh + iterm2 set-up
+## Location for initial Oh-My-Zsh + iterm2 set-up
 
 - [link to github page](https://gist.github.com/kevin-smets/8568070)
-
-Set the custom location for iterm2 settings to the file in your project folder and set to auto-save
 
 ## Custom plugins to download into Oh-My-ZSH
 
@@ -16,7 +14,7 @@ Set the custom location for iterm2 settings to the file in your project folder a
 
 - <https://github.com/zsh-users/zsh-syntax-highlighting>
 
-## ZSH file set-up
+## Zsh file set-up
 
 - comment out all code in your .zshrc file at the root user directory (~/) so only this is included. Change path to be local to your custom .zshrc file
 
@@ -24,6 +22,25 @@ Set the custom location for iterm2 settings to the file in your project folder a
     if [ -r ~/projects/terminal_settings/.zshrc ]; then
         source ~/projects/terminal_settings/.zshrc
     fi
+```
+
+## Iterm2 settings
+
+- In newer macs, delete com.googlecode.iterm2.plist from ~/Libary/Preferences folder
+- copy plist file from repo to ~/Library/Preferences
+
+```zsh
+    cp com.googlecode.iterm2.plist ~/Libary/Preferences
+```
+
+- remove option to save settings in custom location
+
+## optional env functionality to add
+
+- shiftit for window managment
+
+```zsh
+    brew cask install shiftit
 ```
 
 - install python3
@@ -36,14 +53,6 @@ Set the custom location for iterm2 settings to the file in your project folder a
   
 ```zsh
     pip3 install pigments
-```
-
-## optional env functionality to add
-
-- shiftit for window managment
-
-```zsh
-    brew cask install shiftit
 ```
 
 ## Chrome extensions for workflow
