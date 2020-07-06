@@ -96,7 +96,7 @@ plugins=(
   git zsh-nvm zsh-syntax-highlighting
 )
 
-eval "$(jenv init -)"
+# eval "$(jenv init -)"
 
 source $ZSH/oh-my-zsh.sh
 

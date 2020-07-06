@@ -15,10 +15,22 @@ Set the custom location for iterm2 settings to the file in your project folder a
 
 ## ZSH file set-up
 
-- add the below code to your .zshrc file at the root user directory (~/)
+- comment out all code in your .zshrc file at the root user directory (~/) so only this is included. Change path to be local to your custom .zshrc file
 
 ```zsh
     if [ -r ~/projects/terminal_settings/.zshrc ]; then
         source ~/projects/terminal_settings/.zshrc
     fi
+```
+
+- install python3
+  
+```zsh
+    brew install python
+```
+
+- install ***pigments*** package with pip3
+  
+```zsh
+    pip3 install pigments
 ```
