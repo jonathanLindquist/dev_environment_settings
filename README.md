@@ -45,3 +45,7 @@ Set the custom location for iterm2 settings to the file in your project folder a
 ```zsh
     brew cask install shiftit
 ```
+
+## Chrome extensions for workflow
+
+- [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
