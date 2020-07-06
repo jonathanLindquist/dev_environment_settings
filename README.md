@@ -37,3 +37,11 @@ Set the custom location for iterm2 settings to the file in your project folder a
 ```zsh
     pip3 install pigments
 ```
+
+## optional env functionality to add
+
+- shiftit for window managment
+
+```zsh
+    brew cask install shiftit
+```
