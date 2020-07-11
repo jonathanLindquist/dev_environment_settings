@@ -1,4 +1,4 @@
-# dev_environment_settings
+# Dev Environment Settings
 
 ## Location for initial Oh-My-Zsh + iterm2 set-up
 
