@@ -35,6 +35,10 @@
 
 - remove option to save settings in custom location
 
+## Visual Studio Code set-up
+
+- download ***Settings Sync*** extension and sync to personal github gist
+
 ## optional env functionality to add
 
 - shiftit for window managment
