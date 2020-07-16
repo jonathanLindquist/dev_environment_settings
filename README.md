@@ -1,5 +1,9 @@
 # Dev Environment Settings
 
+## Visual Studio Code set-up
+
+- download ***Settings Sync*** extension and sync to personal github gist
+
 ## Location for initial Oh-My-Zsh + iterm2 set-up
 
 - [link to github page](https://gist.github.com/kevin-smets/8568070)
@@ -34,10 +38,6 @@
 ```
 
 - remove option to save settings in custom location
-
-## Visual Studio Code set-up
-
-- download ***Settings Sync*** extension and sync to personal github gist
 
 ## optional env functionality to add
 
