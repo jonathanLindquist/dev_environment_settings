@@ -6,7 +6,7 @@
 
 alias kube="kubectl"
 alias nano="nano -u"
-alias cat="pygmentize -g"
+alias pyg="pygmentize -g"
 
 # PATH exports
 export PATH="/usr/local/share/dotnet:$PATH" #dotnet
