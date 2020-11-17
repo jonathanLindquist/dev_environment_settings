@@ -59,6 +59,14 @@
     pip3 install pigments
 ```
 
+- install **jenv** package with brew
+  - if deciding to download this, follow the configuration instructions here -> [jenv configuration](https://developer.bring.com/blog/configuring-jenv-the-right-way/)
+  - configure export and maven plugins via link above (at the very least)
+
+```zsh
+    brew install jenv
+```
+
 ## Chrome extensions for workflow
 
 - [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
