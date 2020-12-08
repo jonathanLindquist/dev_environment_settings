@@ -80,3 +80,11 @@
 - [Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb?hl=en-US)
 
 - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
+
+## Custom Keybindings
+
+<kbd>&#8984;</kbd> <kbd>K</kbd> + <kbd>n</kbd> = Open new file in project explorer
+
+<kbd>&#8984;</kbd> <kbd>K</kbd> + <kbd>m</kbd> = Open new folder in project explorer
+
+<kbd>&#8984;</kbd> <kbd>1</kbd> = Open project explorer and focus
