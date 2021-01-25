@@ -67,6 +67,8 @@
     brew install jenv
 ```
 
+- To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
+
 ## Chrome extensions for workflow
 
 - [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
