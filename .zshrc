@@ -101,6 +101,9 @@ plugins=(
 
 eval "$(jenv init -)"
 
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/github/id_rsa
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
