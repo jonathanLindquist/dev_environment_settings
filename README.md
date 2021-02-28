@@ -56,7 +56,7 @@
 - install ***pigments*** package with pip3
   
 ```zsh
-    pip3 install pigments
+    pip3 install pygments
 ```
 
 - install **jenv** package with brew
@@ -68,6 +68,12 @@
 ```
 
 - To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
+  - global NPM packages to keep between versions...
+  ```
+      wscat
+      yarn
+      create-react-app
+  ```
 
 ## Chrome extensions for workflow
 

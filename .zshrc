@@ -23,6 +23,9 @@ export PYTHON3_HOME="/usr/local/lib/python3.7"
 
 export EDITOR=/usr/bin/nano
 
+#Python Uniswap API requirement
+export PROVIDER=#
+
 #JAVA 8
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home"
 #JAVA 10
