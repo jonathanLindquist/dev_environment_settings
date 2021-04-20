@@ -97,6 +97,14 @@
 
 <kbd>&#8984;</kbd> <kbd>1</kbd> = Open project explorer and focus
 
+## Mac Custom settings
+
+#### set strikethrough short-cut for Notes app
+
+- System Preferences -> Keyboard -> Shortcuts tab -> App shortcuts
+- hit the + sign and add new shortcut for _Notes_ called "**Strikethrough**"
+- [Link to reddit thread](https://www.reddit.com/r/MacOS/comments/ipjle5/how_do_you_add_a_shortcut_for_strikethrough_to/)
+
 ## Intellij IDEA settings
 
 - sign-in to Jetbrains account to trigger sync
