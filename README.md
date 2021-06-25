@@ -64,7 +64,16 @@
   - configure export and maven plugins via link above (at the very least)
 
 ```zsh
-    brew install jenv
+  brew install jenv
+```
+
+- install new **ruby** version from brew, configurations already present in ```.zshrc``` file. It includes:
+  - ```irb``` interactive ruby console
+  - ```rake``` run interactive scripts
+  - ```gem``` library/dependency manager
+
+```zsh
+  brew install ruby
 ```
 
 - To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
