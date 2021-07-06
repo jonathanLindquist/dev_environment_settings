@@ -77,6 +77,9 @@
   gem install rails
 ```
 
+- install RVM
+  - <https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b>
+
 - create symlink for rails in user-space `bin`
   - `ln -s '/usr/local/lib/ruby/gems/3.0.0/bin/rails' ~/bin/rails`
 
