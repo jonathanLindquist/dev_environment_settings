@@ -67,21 +67,14 @@
   brew install jenv
 ```
 
-- install new **ruby** version from brew, configurations already present in ```.zshrc``` file. It includes:
+- install new **ruby** version via ```rbenv```. Ruby versions come with:
   - ```irb``` interactive ruby console
   - ```rake``` run interactive scripts
   - ```gem``` library/dependency manager
 
 ```zsh
-  brew install ruby
-  gem install rails
+  brew install rbenv
 ```
-
-- install RVM
-  - <https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b>
-
-- create symlink for rails in user-space `bin`
-  - `ln -s '/usr/local/lib/ruby/gems/3.0.0/bin/rails' ~/bin/rails`
 
 - To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
   - global NPM packages to keep between versions...
