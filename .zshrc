@@ -18,7 +18,7 @@ export GOPATH="/usr/local/Cellar/go/1.10.3/libexec/bin"
 
 export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 
-export PYTHON3_HOME="/usr/local/lib/python3.7"
+export PYTHON3_HOME="/usr/local/lib/python3.9"
 #packages from pip3 download to '/usr/local/lib/python3.7/site-packages'
 
 export EDITOR=/usr/bin/nano
