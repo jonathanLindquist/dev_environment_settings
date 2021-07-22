@@ -14,7 +14,7 @@ export PATH="$HOME/bin:$PATH" #local executables
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export GOPATH="/usr/local/Cellar/go/1.10.3/libexec/bin"
+export GOPATH="/usr/local/Cellar/go/1.16.6/libexec/bin"
 
 export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 
