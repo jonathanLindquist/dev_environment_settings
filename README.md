@@ -105,7 +105,7 @@
 
 - [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US)
 
-## VS-Code Custom Keybindings
+## VS-Code Custom Keybindings (exist in new Mac or synced via settings Gist)
 
 <kbd>&#8984;</kbd> <kbd>K</kbd> + <kbd>n</kbd> = Open new file in project explorer
 
