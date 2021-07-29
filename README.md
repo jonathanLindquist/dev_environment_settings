@@ -8,6 +8,8 @@
 
 - [link to github page](https://gist.github.com/kevin-smets/8568070)
 
+(follow the instructions while loading Powerlevel10k)
+
 ## Custom plugins to download into Oh-My-ZSH
 
 ### Zsh-Nvm
@@ -23,6 +25,8 @@
 - comment out all code in your .zshrc file at the root user directory (~/) so only this is included. Change path to be local to your custom .zshrc file
 
 ```zsh
+    [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
     if [ -r ~/projects/terminal_settings/.zshrc ]; then
         source ~/projects/terminal_settings/.zshrc
     fi
@@ -44,7 +48,7 @@
 - shiftit for window managment
 
 ```zsh
-    brew cask install shiftit
+    brew install --cask shiftit
 ```
 
 - install python3
@@ -84,6 +88,7 @@
       wscat
       yarn
       create-react-app
+      typescript
   ```
 
 ## Chrome extensions for workflow
