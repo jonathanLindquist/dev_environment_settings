@@ -141,3 +141,8 @@ Then update key bindings in iTerm to match these (must set custom escape sequenc
 ## Intellij IDEA settings
 
 - sign-in to Jetbrains account to trigger sync
+
+## Tools
+
+- [JQ](https://stedolan.github.io/jq/)
+  - powerful tool for JSON parsing in the CLI
