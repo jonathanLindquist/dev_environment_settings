@@ -140,6 +140,7 @@ add history settings to keep commands for awhile
     SAVEHIST=1000000
 ```
 
+
 Then update key bindings in iTerm to match these (must set custom escape sequence values)
 
 `Send ^[a`         <kbd>&#8984;</kbd><kbd>&#8592;</kbd>
