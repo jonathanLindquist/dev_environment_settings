@@ -115,6 +115,15 @@
 
 <kbd>&#8984;</kbd> <kbd>1</kbd> = Open project explorer and focus
 
+## Mac Custom settings
+
+### set strikethrough short-cut for Notes app
+
+- System Preferences -> Keyboard -> Shortcuts tab -> App shortcuts
+- hit the + sign and add new shortcut for *Notes* called "**Strikethrough**"
+- [Link to reddit thread](https://www.reddit.com/r/MacOS/comments/ipjle5/how_do_you_add_a_shortcut_for_strikethrough_to/)
+
+
 Set new bindings for **CLI** in `.zshrc
 
 ```zsh
@@ -124,20 +133,18 @@ Set new bindings for **CLI** in `.zshrc
     bindkey "^[e" end-of-line
 ```
 
+add history settings to keep commands for awhile
+
+```zsh
+    HISTSIZE=1000000
+    SAVEHIST=1000000
+```
+
 Then update key bindings in iTerm to match these (must set custom escape sequence values)
 
 `Send ^[a`         <kbd>&#8984;</kbd><kbd>&#8592;</kbd>
 
 `Send ^[e`         <kbd>&#8984;</kbd><kbd>&#8594;</kbd>
-
-## Mac Custom settings
-
-### set strikethrough short-cut for Notes app
-
-- System Preferences -> Keyboard -> Shortcuts tab -> App shortcuts
-- hit the + sign and add new shortcut for *Notes* called "**Strikethrough**"
-- [Link to reddit thread](https://www.reddit.com/r/MacOS/comments/ipjle5/how_do_you_add_a_shortcut_for_strikethrough_to/)
-
 ## Intellij IDEA settings
 
 - sign-in to Jetbrains account to trigger sync
