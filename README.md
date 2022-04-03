@@ -128,6 +128,7 @@ Set new bindings for **CLI** in `.zshrc
 Then update key bindings in iTerm to match these (must set custom escape sequence values)
 
 `Send ^[a`         <kbd>&#8984;</kbd><kbd>&#8592;</kbd>
+
 `Send ^[e`         <kbd>&#8984;</kbd><kbd>&#8594;</kbd>
 
 ## Mac Custom settings
