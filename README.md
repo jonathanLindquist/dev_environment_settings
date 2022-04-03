@@ -148,4 +148,5 @@ Then update key bindings in iTerm to match these (must set custom escape sequenc
   - powerful tool for JSON parsing in the CLI
 - [Kubetx/Kubens](https://github.com/ahmetb/kubectx)
   - powerful tools for `Kubectl`
-  
+- [k9s](https://k9scli.io/)
+  - CLI tool for managing Kubernetes/nodes/contexts
