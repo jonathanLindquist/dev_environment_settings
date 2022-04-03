@@ -47,42 +47,41 @@
 
 - shiftit for window managment
 
-```zsh
-    brew install --cask shiftit
-```
+  ```zsh
+      brew install --cask shiftit
+  ```
 
 - install conda for Python virutal envs
   
-```zsh
-    brew install conda
-```
+  ```zsh
+      brew install conda
+  ```
 
 - install ***pigments*** package with pip3
   
-```zsh
-    pip3 install pygments
-```
+  ```zsh
+      pip3 install pygments
+  ```
 
 - install **jenv** package with brew
   - if deciding to download this, follow the configuration instructions here -> [jenv configuration](https://developer.bring.com/blog/configuring-jenv-the-right-way/)
-  - configure export and maven plugins via link above (at the very least)
+  - configure export, gradle and maven plugins via link above (at the very least)
 
-```zsh
-  brew install jenv
-```
+  ```zsh
+    brew install jenv
+  ```
 
 - install new **ruby** version via ```rbenv```. Ruby versions come with:
-  - ```irb``` interactive ruby console
-  - ```rake``` run interactive scripts
-  - ```gem``` library/dependency manager
+  - <https://github.com/rbenv/rbenv>  
+    - ```irb``` interactive ruby console
+    - ```rake``` run interactive scripts
+    - ```gem``` library/dependency manager
 
-```zsh
-  brew install rbenv
-```
+  ```zsh
+    brew install rbenv
+  ```
 
-<https://github.com/rbenv/rbenv>
-
-- To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
+- To allow `nvm` to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
   - global NPM packages to keep between versions...
   
   ```txt
