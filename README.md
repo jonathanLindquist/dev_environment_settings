@@ -77,6 +77,12 @@
     - ```rake``` run interactive scripts
     - ```gem``` library/dependency manager
 
+  also set the PATH to `rbenv` so it can find the custom `ruby` versions & execute the init
+  ```zsh
+    #Ruby config
+    eval "$(rbenv init -)"
+  ```
+
   ```zsh
     brew install rbenv
   ```
@@ -139,7 +145,6 @@ add history settings to keep commands for awhile
     HISTSIZE=1000000
     SAVEHIST=1000000
 ```
-
 
 Then update key bindings in iTerm to match these (must set custom escape sequence values)
 
