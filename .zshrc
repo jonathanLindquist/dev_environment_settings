@@ -5,7 +5,8 @@
 #export PATH="$HOME/tools/vault-cli-3.1.38/bin:$PATH"
 
 alias kube="kubectl"
-alias nano="nano -u"
+alias kns="kubens"
+alias kctx="kubetx"
 alias pyg="pygmentize -g"
 
 # PATH exports

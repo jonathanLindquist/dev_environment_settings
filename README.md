@@ -146,3 +146,6 @@ Then update key bindings in iTerm to match these (must set custom escape sequenc
 
 - [JQ](https://stedolan.github.io/jq/)
   - powerful tool for JSON parsing in the CLI
+- [Kubetx/Kubens](https://github.com/ahmetb/kubectx)
+  - powerful tools for `Kubectl`
+  
