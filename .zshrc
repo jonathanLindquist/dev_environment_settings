@@ -36,8 +36,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 DEFAULT_USER="$USER"
 bindkey "^[^[[D" backward-word
 bindkey "^[^[[C" forward-word
-bindkey "^[begin" beginning-of-line
-bindkey "^[end" end-of-line
+bindkey "^[a" beginning-of-line
+bindkey "^[e" end-of-line
 HISTSIZE=1000000
 SAVEHIST=1000000
 

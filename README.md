@@ -18,6 +18,10 @@
 
 - <https://github.com/zsh-users/zsh-syntax-highlighting>
 
+### AWS plugin
+
+- <https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws>
+
 ## Zsh file set-up
 
 - comment out all code in your .zshrc file at the root user directory (~/) so only this is included. Change path to be local to your custom .zshrc file
@@ -44,13 +48,13 @@
 - shiftit for window managment
 
 ```zsh
-    brew cask install shiftit
+    brew install --cask shiftit
 ```
 
-- install python3
+- install conda for Python virutal envs
   
 ```zsh
-    brew install python
+    brew install conda
 ```
 
 - install ***pigments*** package with pip3
@@ -80,10 +84,14 @@
 
 - To allow NVM to retain global packages when installing new node versions, add a file titled ```default-packages``` to the nvm root directory with the list of packages to install, more info here -> [docs](https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing)
   - global NPM packages to keep between versions...
-  ```
-      wscat
+  
+  ```txt
       yarn
       create-react-app
+      wscat
+      typescript
+      ganache-cli
+      solidity-shell
   ```
 
 ## Chrome extensions for workflow
@@ -108,12 +116,26 @@
 
 <kbd>&#8984;</kbd> <kbd>1</kbd> = Open project explorer and focus
 
+Set new bindings for **CLI** in `.zshrc
+
+```zsh
+    bindkey "^[^[[D" backward-word
+    bindkey "^[^[[C" forward-word
+    bindkey "^[a" beginning-of-line
+    bindkey "^[e" end-of-line
+```
+
+Then update key bindings in iTerm to match these (must set custom escape sequence values)
+
+`Send ^[a`         <kbd>&#8984;</kbd><kbd>&#8592;</kbd>
+`Send ^[e`         <kbd>&#8984;</kbd><kbd>&#8594;</kbd>
+
 ## Mac Custom settings
 
-#### set strikethrough short-cut for Notes app
+### set strikethrough short-cut for Notes app
 
 - System Preferences -> Keyboard -> Shortcuts tab -> App shortcuts
-- hit the + sign and add new shortcut for _Notes_ called "**Strikethrough**"
+- hit the + sign and add new shortcut for *Notes* called "**Strikethrough**"
 - [Link to reddit thread](https://www.reddit.com/r/MacOS/comments/ipjle5/how_do_you_add_a_shortcut_for_strikethrough_to/)
 
 ## Intellij IDEA settings
