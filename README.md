@@ -99,6 +99,21 @@
   ```
 
 - `tfenv` to manage Terraform environments. more info here -> [docs](https://github.com/tfutils/tfenv)
+  
+  ```zsh
+    brew install tfenv
+  ```
+  
+- `spoof-mac` to spoof MAC addresses easily. more info here -> [docs](https://github.com/feross/SpoofMAC)
+
+  ```zsh
+    brew install spoof-mac
+  ```
+
+  ```zsh
+    spoof-mac list
+    sudo spoof-mac randomize en0 # random address on target en0
+  ```
 
 ## Chrome extensions for workflow
 
