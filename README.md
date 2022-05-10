@@ -92,12 +92,13 @@
   
   ```txt
       yarn
-      create-react-app
       wscat
       typescript
       ganache-cli
       solidity-shell
   ```
+
+- `tfenv` to manage Terraform environments. more info here -> [docs](https://github.com/tfutils/tfenv)
 
 ## Chrome extensions for workflow
 
