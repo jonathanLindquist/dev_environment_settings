@@ -115,6 +115,8 @@
     sudo spoof-mac randomize en0 # random address on target en0
   ```
 
+- `gvm` Go Version Manager: https://github.com/moovweb/gvm
+
 ## Chrome extensions for workflow
 
 - [JSON formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
