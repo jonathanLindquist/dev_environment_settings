@@ -4,21 +4,39 @@
 #Add vlt to command line
 #export PATH="$HOME/tools/vault-cli-3.1.38/bin:$PATH"
 
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+alias yt-dlp="yt-dlp --netrc --sponsorblock-remove all"
+alias stack="localstack"
 alias kube="kubectl"
 alias kns="kubens"
-alias kctx="kubetx"
-alias pyg="pygmentize -g"
+alias kctx="kubectx"
+alias pn="pnpm"
+alias next="npx next"
 
 # PATH exports
-export PATH="/usr/local/share/dotnet:$PATH" #dotnet
-export PATH="$HOME/bin:$PATH" #local executables
+# export PATH="/usr/local/share/dotnet:$PATH" #dotnet
+# export PATH="$HOME/bin:$PATH" #local executables
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-export GROOVY_HOME="/usr/local/opt/groovy/libexec"
+# export GROOVY_HOME="/usr/local/opt/groovy/libexec"
 
-export PYTHON3_HOME="/usr/local/lib/python3.9"
+# export PYTHON3_HOME="/usr/local/lib/python3.9"
 #packages from pip3 download to '/usr/local/lib/python3.7/site-packages'
+
+# export PATH=$HOME/bin:$PATH
+# export PATH=/opt/homebrew/opt/curl/bin:$PATH
+# export PATH=/opt/homebrew/bin:$PATH
+# export PATH=$HOME/.cargo/bin:$PATH
+# export PATH=$PATH:/Applications/Docker.app/Contents/Resources/bin
+
+# export JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
+# export JAVA_HOME=/opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk/Contents/Home
+# export JAVA_HOME=/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home
+# export EDITOR=nano
 
 export EDITOR=/usr/bin/nano
 
@@ -95,16 +113,19 @@ SAVEHIST=1000000
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git zsh-nvm zsh-syntax-highlighting
-)
-
-eval "$(jenv init -)"
+  git 
+  zsh-nvm 
+  zsh-autosuggestions 
+  zsh-syntax-highlighting)
 
 #Ruby config
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github/id_rsa
+eval "$(ssh-add --apple-use-keychain ~/.ssh/id_ed25519)"
+# ssh-add ~/.ssh/github/id_rsa
 
 source $ZSH/oh-my-zsh.sh
 
