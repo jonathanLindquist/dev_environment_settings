@@ -104,15 +104,10 @@
     brew install tfenv
   ```
   
-- `spoof-mac` to spoof MAC addresses easily. more info here -> [docs](https://github.com/feross/SpoofMAC)
+- `spoof` to spoof MAC addresses easily. Updated from `spoof-mac` to npm package `spoof` more info here -> [docs](https://github.com/feross/spoof)
 
   ```zsh
-    brew install spoof-mac
-  ```
-
-  ```zsh
-    spoof-mac list
-    sudo spoof-mac randomize en0 # random address on target en0
+    npm install spoof -g
   ```
 
 - `gvm` Go Version Manager: https://github.com/moovweb/gvm
